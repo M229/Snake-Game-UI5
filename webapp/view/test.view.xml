@@ -1,0 +1,16 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="supermario.firstView" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:demo="control">
+<Page title="Title" showHeader="false" class='w3-marioSky' enableScrolling="false">
+<content>
+<demo:CanvasCloud id="cl1"></demo:CanvasCloud>
+<demo:CanvasCloud id="canvas" class="enemy"></demo:CanvasCloud>
+<VBox id="character" class="character" />
+<FlexBox class="w3-display-container">
+<demo:CanvasCloud id="brick1" width="1366" class="w3-display-bottommiddle w3-container"></demo:CanvasCloud>
+<demo:CanvasCloud id="brick2" width="1366"></demo:CanvasCloud>
+<demo:CanvasCloud id="brick3" width="1366"></demo:CanvasCloud>
+<demo:CanvasCloud id="brick4" width="1366"></demo:CanvasCloud>
+<demo:CanvasCloud id="brick5" width="1366"></demo:CanvasCloud>
+</FlexBox>
+</content>
+</Page>
+</core:View>

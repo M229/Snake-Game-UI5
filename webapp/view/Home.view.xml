@@ -1,0 +1,20 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.Home"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:Controls="sap.ui.demo.basicTemplate.Controls">
+	<Page
+		id="page"
+		title="{i18n>title}"
+		showHeader="false"
+		enableScrolling="false"
+		class="marioSky">
+		<content> 
+			<Controls:Rectangle text="te1xt" width="200px" height="300px" class="snakeBlock">
+		</Controls:Rectangle>
+			<Controls:Canvas width="800px" height="800px" id="baseCanvas" class="w3-display-bottommiddle w3-container"/>
+			<Button text="wfwefwef" type="Accept" press="onPress"></Button>
+		</content>
+	</Page>
+</mvc:View>

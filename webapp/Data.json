@@ -1,0 +1,12 @@
+{
+    "Products": [
+        {
+            "ProductName": "Tea",
+            "UnitPrice": "1,99"
+        },
+        {
+            "ProductName": "Milk",
+            "UnitPrice": "2,33"
+        }
+    ]
+}
